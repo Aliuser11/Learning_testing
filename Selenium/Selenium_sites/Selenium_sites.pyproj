@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>b4ca4a52-0dd4-4fae-8026-99cf059a30a0</ProjectGuid>
+    <ProjectGuid>6cb5abf6-ff7d-443d-ab0a-3b036ef0324f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Test_learning.py</StartupFile>
+    <StartupFile>Selenium_sites.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Test_learning</Name>
-    <RootNamespace>Test_learning</RootNamespace>
-    <TestFramework>unittest</TestFramework>
+    <Name>Selenium_sites</Name>
+    <RootNamespace>Selenium_sites</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,26 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="próbka.py">
+    <Compile Include="herokuapp_.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Selenium\Selenium_sites\Selenium_sites.py" />
-    <Compile Include="Selenium\Selenium_sites\test_herokuapp_.py" />
-    <Compile Include="Selenium\Selenium_sites\test_tutorialspoint.py" />
-    <Compile Include="test_1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="test_2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Test_learning.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Selenium\" />
-    <Folder Include="Selenium\Selenium_sites\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Selenium\Selenium_sites\Selenium_sites.pyproj" />
+    <Compile Include="Selenium_sites.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
